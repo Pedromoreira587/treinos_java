@@ -3,16 +3,13 @@ import java.util.Scanner;
 public class avaliativaandre2_0 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        int limitador = 0;
-      while( limitador < 3) { 
-
-            String resp = "s";
-            while (!resp.equals("n")) {
+        int limitador = 1;
+      while( limitador < 21) { 
                 int idade;
-                    System.out.println("=============================");
+                    System.out.println("==============================");
                     System.out.println("| identificador de categoria |");
-                    System.out.println("|digite a idade do atleta:   |");
-                    System.out.println("=============================");
+                    System.out.println("|digite a idade do "+limitador+"° atleta:|");
+                    System.out.println("==============================");
                  idade = leitor.nextInt();
 
                     String categoria;
@@ -79,14 +76,10 @@ public class avaliativaandre2_0 {
                     System.out.println(               "|"+ categoria +"|"        );
                     System.out.println("===================================");
                 }
-                System.out.println(" digite [S] para continuar");
-                System.out.println(" digite [N] para encerrar o programa");
-                resp = leitor.next();   
-            }
+                
             limitador++;
-            System.out.println("programa encerrado!");
-              
         }  
+        System.out.println("programa encerrado!");
         System.out.println("todos os altatas foram verificados!");
         leitor.close();
       
