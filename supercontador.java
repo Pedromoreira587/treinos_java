@@ -16,8 +16,7 @@ public class supercontador {
                 num1 = 1 ;
                 while (num1 <= 10) {
                     System.out.print(num1 +(num1<10? "..":""));
-                num1++;
-                    
+                num1++;    
                 }
                 
             }else if (resp == 2) {

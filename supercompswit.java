@@ -25,8 +25,7 @@ public class supercompswit{
                     num1 = 10 ;
                     while (num1 > 0) {
                         System.out.print(num1 +(num1>1? "..":""));
-                        num1--;
-                        
+                        num1--;   
                     }
                 }
                 case 3 -> System.out.println("Saindo do programa.");
